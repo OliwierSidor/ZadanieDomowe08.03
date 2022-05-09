@@ -8,11 +8,10 @@ public class MainZadanie1 {
         System.out.println("Podaj liczbę całkowitą: ");
         int liczba = s.nextInt();
         System.out.print("Dzielniki liczby " + liczba + " to: ");
-        for (int i = 1; i < liczba; i++) {
+        for (int i = 1; i <= liczba; i++) {
             if ((liczba % i) == 0) {
                 System.out.print(i + ", ");
             }
         }
-        System.out.print(liczba + ";");
     }
 }

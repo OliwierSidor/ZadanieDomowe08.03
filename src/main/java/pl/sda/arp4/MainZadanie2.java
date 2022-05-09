@@ -13,7 +13,7 @@ public class MainZadanie2 {
             tablica[i] = liczba;
         }
         int maksimum = tablica[0];
-        for (int i = 0; i < tablica.length; i++) {
+        for (int i = 1; i < tablica.length; i++) {
             if (maksimum < tablica[i]) {
                 maksimum = tablica[i];
             }

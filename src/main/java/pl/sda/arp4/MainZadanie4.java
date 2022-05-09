@@ -31,13 +31,13 @@ public class MainZadanie4 {
         }
         System.out.println("Suma: " + (sumaUjemne + sumaDodatnie));
         int maksimum = tablica[0];
-        for (int i = 0; i < tablica.length; i++) {
+        for (int i = 1; i < tablica.length; i++) {
             if (maksimum < tablica[i]) {
                 maksimum = tablica[i];
             }
         }
         int minimum = tablica[0];
-        for (int i = 0; i < tablica.length; i++) {
+        for (int i = 1; i < tablica.length; i++) {
             if (minimum > tablica[i]) {
                 minimum = tablica[i];
             }

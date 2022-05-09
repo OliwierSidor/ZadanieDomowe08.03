@@ -11,8 +11,6 @@ public class MainZadanie3 {
             int liczba = scanner.nextInt();
             tablica[i] = liczba;
         }
-        for (int i = 0; i < 5; i++) {
-        }
         int sumaUjemne = 0;
         for (int i = 0; i < tablica.length; i++) {
             sumaUjemne = sumaUjemne + tablica[i];
@@ -21,8 +19,6 @@ public class MainZadanie3 {
             System.out.println("podaj " + (i + 1) + " dodanią liczbę:");
             int liczba = scanner.nextInt();
             tablica[i] = liczba;
-        }
-        for (int i = 0; i < 5; i++) {
         }
         int sumaDodatnie = 0;
         for (int i = 0; i < tablica.length; i++) {
