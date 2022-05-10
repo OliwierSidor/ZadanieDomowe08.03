@@ -11,6 +11,10 @@ public class MainZadanie2 {
             System.out.println("Podaj liczbę " + (i + 1) + "  większą od zera: ");
             int liczba = scanner.nextInt();
             tablica[i] = liczba;
+            if (tablica[i] <= 0){
+                System.out.println("Podana liczba jest ujemna, wprowadź ponownie: ");
+                i--;
+            }
         }
         int maksimum = tablica[0];
         for (int i = 1; i < tablica.length; i++) {
